@@ -1,1 +1,1 @@
-print("kontakt opprettet")
+print("hei")
