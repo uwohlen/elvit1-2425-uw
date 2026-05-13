@@ -13,7 +13,9 @@ class Test:
 
 test_obj = Test(5,10)
 
-print(test_obj._Test__privat_x)
+#print(test_obj.__privat_x)
+print(test_obj.public_y)
+#print(test_obj.__privat_ekstra)
 
 test_obj._Test__privat_x = "Hei" # Kan likevel fås tak i, men da skal man virkelig gå inn for å gjøre bøll
 
